@@ -27,7 +27,7 @@ col[0].write(
     """,
     unsafe_allow_html=True,
 )
-col[1].image("photos/biosta.jpeg")
+col[1].image("static/biosta.jpeg")
 col[0].link_button("Plus info", url="https://projetbiostatistique.streamlit.app")
 
 for i in range(1):
@@ -50,7 +50,7 @@ col[1].write(
     """,
     unsafe_allow_html=True,
 )
-col[0].image("photos/series temporelles.png")
+col[0].image("static/series temporelles.png")
 col[1].link_button(
     "Plus info",
     url="",
@@ -87,7 +87,7 @@ col[0].write(
 )
 for i in range(3):
     col[1].write("\n")
-col[1].image("photos/ID Global Busness/Accessoire ID Global.jpg", use_column_width=True)
+col[1].image("static/ID Global Busness/Accessoire ID Global.jpg", use_column_width=True)
 col[0].link_button(
     "Plus info",
     url="",
@@ -112,7 +112,7 @@ col[1].write(
     """,
     unsafe_allow_html=True,
 )
-col[0].image("photos/Departement de Kaffine.jpg")
+col[0].image("static/Departement de Kaffine.jpg")
 col[1].link_button("Plus info", url="https://projetbiostatistique.streamlit.app")
 st.write("\n")
 

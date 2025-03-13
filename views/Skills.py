@@ -15,7 +15,7 @@ st.write(
 # Talend Opend Studio
 for i in range(3):
     st.write("\n")
-st.image("photos/talend.png", use_column_width=True)
+st.image("static/talend.png", use_column_width=True)
 st.write("\n")
 st.write(
     """<p style="text-align: justify;"><B>Talend Open Studio (TOS) était 
@@ -41,7 +41,7 @@ col[1].write(
     """<h2 align=left><FONT color="orange">bases de données</FONT></h2>""",
     unsafe_allow_html=True,
 )
-col[0].image("photos/mySQL.png", use_column_width=True)
+col[0].image("static/mySQL.png", use_column_width=True)
 col[0].write(
     """<p style="text-align: justify;"><B>MySQL est un système de gestion de bases de données relationnelles (SGBDR) open source. Il permet de stocker, organiser et manipuler des 
     données en utilisant le langage SQL (Structured Query Language).</B></p>
@@ -52,7 +52,7 @@ col[0].write(
 # PostegreSQL
 for i in range(3):
     col[1].write("\n")
-col[1].image("photos/postegre.png", use_column_width=True)
+col[1].image("static/postegre.png", use_column_width=True)
 col[1].write(
     """<p style="text-align: justify;"><B>PostgreSQL est un système de gestion de bases 
     de données relationnelles (SGBDR) open source, réputé 
@@ -78,7 +78,7 @@ col[1].write(
 )
 # Excel
 
-col[0].image("photos/Excel.png", width=200)
+col[0].image("static/Excel.png", width=200)
 col[0].write(
     """<p style="text-align: justify;"><B>Excel est un logiciel de tableur développé par Microsoft, 
     permettant de créer, organiser, analyser et visualiser des données
@@ -90,7 +90,7 @@ col[0].write(
 )
 
 # Power BI
-col[1].image("photos/powerBi.png", width=200)
+col[1].image("static/powerBi.png", width=200)
 col[1].write(
     """<p style="text-align: justify;"><B>Power BI est un outil de business 
     intelligence (BI) développé par Microsoft, qui permet de collecter, 
@@ -104,7 +104,7 @@ col[1].write(
 # Tableau Desktop
 for i in range(3):
     col[0].write("\n")
-col[0].image("photos/tableau.png", width=200)
+col[0].image("static/tableau.png", width=200)
 for i in range(3):
     col[0].write("\n")
 col[0].write(
@@ -118,7 +118,7 @@ col[0].write(
 )
 
 # SPSS
-col[1].image("photos/SPSS.png", width=170)
+col[1].image("static/SPSS.png", width=170)
 col[1].write(
     """<p style="text-align: justify;"><B>SPSS est un progiciel statistique 
     puissant qui offre un large éventail de fonctionnalités pour l'analyse, 
@@ -133,7 +133,7 @@ col[1].write(
 # R
 for i in range(3):
     col[0].write("\n")
-col[0].image("photos/R.png", width=200)
+col[0].image("static/R.png", width=200)
 
 col[0].write(
     """<p style="text-align: justify;"><B>R est un langage de 
@@ -149,7 +149,7 @@ col[0].write(
 # STATA
 for i in range(2):
     col[1].write("\n")
-col[1].image("photos/stata.jpeg", width=300, use_column_width=False)
+col[1].image("static/stata.jpeg", width=300, use_column_width=False)
 col[1].write(
     """<p style="text-align: justify;"><B>Stata est un logiciel 
     de statistiques utilisé pour l'analyse de données, 
@@ -177,7 +177,7 @@ col[1].write(
 
 # Python
 
-col[0].image("photos/python.png", width=200)
+col[0].image("static/python.png", width=200)
 col[0].write(
     """<p style="text-align: justify;"><B>Python est un langage de 
     programmation polyvalent et open-source, connu pour sa simplicité, 
@@ -189,7 +189,7 @@ col[0].write(
 )
 
 # Java
-col[1].image("photos/java.png", width=150)
+col[1].image("static/java.png", width=150)
 col[1].write(
     """<p style="text-align: justify;"><B>Java est un langage de programmation 
     orienté objet, robuste et multiplateforme, développé par Sun Microsystems 
@@ -202,7 +202,7 @@ col[1].write(
 # HTML
 for i in range(2):
     col[0].write("\n")
-col[0].image("photos/HTML.png", width=150)
+col[0].image("static/HTML.png", width=150)
 col[0].write(
     """<p style="text-align: justify;"><B>HTML (HyperText Markup Language) 
     est le langage standard utilisé pour structurer et afficher du contenu 
@@ -213,7 +213,7 @@ col[0].write(
 )
 
 # CSS
-col[1].image("photos/CSS.png", width=150)
+col[1].image("static/CSS.png", width=150)
 col[1].write(
     """<p style="text-align: justify;"><B>Le CSS (Cascading Style Sheets) est un 
     langage informatique utilisé pour décrire la présentation des documents HTML et 
@@ -226,7 +226,7 @@ col[1].write(
 # C
 for i in range(2):
     col[0].write("\n")
-col[0].image("photos/c.png", width=200)
+col[0].image("static/c.png", width=200)
 for i in range(2):
     col[0].write("\n")
 col[0].write(
@@ -238,7 +238,7 @@ col[0].write(
 )
 
 # C++
-col[1].image("photos/c++.png", width=150)
+col[1].image("static/c++.png", width=150)
 col[1].write(
     """<p style="text-align: justify;"><B>C++ est un langage de programmation orienté objet, 
     développé par Bjarne Stroustrup au début des années 1980. Il est une extension du langage 
@@ -253,7 +253,7 @@ col[1].write(
 # SQL
 for i in range(2):
     col[0].write("\n")
-col[0].image("photos/sql.png", width=200)
+col[0].image("static/sql.png", width=200)
 col[0].write(
     """<p style="text-align: justify;"><B>SQL (Structured Query Language) 
     est un langage de programmation standardisé utilisé pour gérer et 
@@ -264,7 +264,7 @@ col[0].write(
 )
 
 # Scala
-col[1].image("photos/scala.png", width=150)
+col[1].image("static/scala.png", width=150)
 col[1].write(
     """<p style="text-align: justify;"><B>Scala est un langage de 
     programmation moderne qui combine des caractéristiques de la 
@@ -292,7 +292,7 @@ col[1].write(
 # Symfony
 for i in range(1):
     col[0].write("\n")
-col[0].image("photos/Symfony.png", use_column_width=True)
+col[0].image("static/Symfony.png", use_column_width=True)
 col[0].write(
     """<p style="text-align: justify;"><B>Symfony est un framework 
     PHP open-source destiné à développer des applications web et 
@@ -306,7 +306,7 @@ col[0].write(
 # Streamlit
 for i in range(1):
     col[1].write("\n")
-col[1].image("photos/streamlit.jpeg", use_column_width=True)
+col[1].image("static/streamlit.jpeg", use_column_width=True)
 col[1].write(
     """<p style="text-align: justify;"><B>Streamlit est un 
     framework open-source en Python permettant de créer 
@@ -334,7 +334,7 @@ col[1].write(
 # Symfony
 for i in range(3):
     col[0].write("\n")
-col[0].image("photos/Illustrator.png", width=220)
+col[0].image("static/Illustrator.png", width=220)
 col[0].write("\n")
 col[0].write(
     """<p style="text-align: justify;"><B>Adobe Illustrator est 
@@ -349,7 +349,7 @@ col[0].write(
 )
 
 # Photoshop
-col[1].image("photos/Photoshop.png", width=300)
+col[1].image("static/Photoshop.png", width=300)
 col[1].write(
     """<p style="text-align: justify;"><B>Adobe Photoshop 
     est un logiciel de retouche photo et de création graphique 
