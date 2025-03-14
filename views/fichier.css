@@ -15,3 +15,11 @@ textarea {
     text-align: center;
     font-size: 15px;
 }
+
+#MainMenu {
+    visibility: hidden;
+}
+
+footer {
+    visibility: hidden;
+}
