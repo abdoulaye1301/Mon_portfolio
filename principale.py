@@ -6,7 +6,7 @@ from PIL import Image
 # Page du projet
 accueil = st.Page(
     page="views/Accueille.py",
-    title="A propos de moi",
+    title="A propos",
     default=True,
 )
 competence = st.Page(
@@ -29,8 +29,8 @@ skills = st.Page(
 # Navigation des pages
 pg = st.navigation(
     {
-        "Menu": [accueil, competence, skills, projet],
-        # "Réalisation": [competence, skills, projet],
+        "Information": [accueil],
+        "Réalisation": [competence, skills, projet],
     }
 )
 
