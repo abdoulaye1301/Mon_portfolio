@@ -8,7 +8,7 @@ from views.Contacts import contact_form
 dire = Path(__file__).parent if "__file__" in locals() else Path.cwd()
 fichier_css = dire / "fichier.css"
 cv = "doc/cv_abdoulaye_ndao.pdf"
-icone_page = "photos/Plan de travail 1.png"
+icone_page = "static/Plan de travail 1.png"
 linked = "static/linkedin.png"
 gith = "static/github.png"
 twitt = "static/twitter.png"
