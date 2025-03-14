@@ -29,8 +29,8 @@ skills = st.Page(
 # Navigation des pages
 pg = st.navigation(
     {
-        "Information": [accueil],
-        "Réalisation": [competence, skills, projet],
+        "Menu": [accueil, competence, skills, projet],
+        # "Réalisation": [competence, skills, projet],
     }
 )
 
