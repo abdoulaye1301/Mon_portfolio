@@ -327,7 +327,7 @@ col[0].write(
 )
 
 col[1].write(
-    """<h2 align=left><FONT color="orange">d'Inphographie</FONT></h2>""",
+    """<h2 align=left><FONT color="orange">d'Infographie</FONT></h2>""",
     unsafe_allow_html=True,
 )
 
