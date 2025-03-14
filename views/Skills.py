@@ -90,7 +90,7 @@ col[0].write(
 )
 
 # Power BI
-col[1].image("static/powerBi.png", width=300)
+col[1].image("static/power.png", width=240)
 col[1].write(
     """<p style="text-align: justify;"><B>Power BI est un outil de business 
     intelligence (BI) développé par Microsoft, qui permet de collecter, 
@@ -104,7 +104,7 @@ col[1].write(
 # Tableau Desktop
 for i in range(3):
     col[0].write("\n")
-col[0].image("static/tableau.png", width=200)
+col[0].image("static/tableau.png", width=260)
 for i in range(3):
     col[0].write("\n")
 col[0].write(
