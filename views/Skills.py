@@ -1,8 +1,10 @@
 import streamlit as st
 
 st.markdown(
-    "**Dans cette page, vous pouvez consulter les différentes projets sur lesquels** "
-    "**Mr Abdoulaye NDAO à participer**"
+    """<p style="text-align: justify;"><B>Dans cette page, je vous présente les différents logiciels dont j'utilise le plus dans le cadre de 
+    mes projets. De ce fait, j'ai énuméré ces logiciels par groupe de façon qu'ils soient plus lisibles et 
+    plus compréhensif.</B></p>""",
+    unsafe_allow_html=True,
 )
 
 # =========Outils de Infographie=======

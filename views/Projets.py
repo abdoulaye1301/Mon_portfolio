@@ -1,10 +1,14 @@
 import streamlit as st
 
 st.markdown(
-    "**Dans cette page, vous pouvez consulter les différentes projets sur lesquels** "
-    "**Mr Abdoulaye NDAO à participer**"
+    """<p style="text-align: justify;"><B>Dans cette page, vous pouvez consulter 
+    les différentes projets sur lesquels</B></p>""",
+    unsafe_allow_html=True,
 )
-st.header("Projet de modélisation avec Python")
+st.write(
+    """<h2 align=center><FONT color="orange">Réalisation des projets avec Python</FONT></h2>""",
+    unsafe_allow_html=True,
+)
 st.write("\n")
 
 col = st.columns(2)
@@ -13,7 +17,10 @@ for i in range(1):
     col[0].write("\n")
 for i in range(6):
     col[1].write("\n")
-col[0].subheader("Biostatistique")
+col[0].write(
+    """<h4 align=left><FONT color="orange">Biostatistique</FONT></h4>""",
+    unsafe_allow_html=True,
+)
 col[0].write("\n")
 col[0].write(
     """
@@ -30,14 +37,16 @@ col[0].write(
 col[1].image("static/biosta.jpeg")
 col[0].link_button("Plus info", url="https://projetbiostatistique.streamlit.app")
 
-for i in range(1):
+for i in range(3):
     col[0].write("\n")
-for i in range(6):
+for i in range(1):
     col[1].write("\n")
 
 # ========Projet Series Temporelles=================
-col[0].subheader("Série Temporelle")
-col[0].write("\n")
+col[1].write(
+    """<h4 align=left><FONT color="orange">Série Temporelle</FONT></h4>""",
+    unsafe_allow_html=True,
+)
 col[1].write(
     """
     <p style="text-align: justify;"><B>
@@ -61,17 +70,24 @@ col[1].link_button(
 
 # ===========ANALYSE DE DONNÉES==============
 for i in range(1):
+    col[1].write("\n")
+for i in range(1):
     col[0].write("\n")
-for i in range(4):
-    col[0].write("\n")
-col[0].header("Analyse de données")
-
+col[0].write(
+    """<h2 align=right><FONT color="orange">Analyse de</FONT></h2>""",
+    unsafe_allow_html=True,
+)
+col[1].write(
+    """<h2 align=left><FONT color="orange">données</FONT></h2>""",
+    unsafe_allow_html=True,
+)
 # ============Projet power BI==============
 for i in range(1):
     col[0].write("\n")
-for i in range(11):
-    col[1].write("\n")
-col[0].subheader("Analyse des ventes")
+col[0].write(
+    """<h4 align=left><FONT color="orange">Analyse des ventes</FONT></h4>""",
+    unsafe_allow_html=True,
+)
 st.write("\n")
 col[0].write(
     """
@@ -94,12 +110,13 @@ col[0].link_button(
 )
 
 # =============Projet excel=============
-for i in range(1):
-    col[0].write("\n")
-for i in range(11):
-    col[1].write("\n")
-col[0].subheader("Dashboard RNU avec excel")
 col[0].write("\n")
+for i in range(1):
+    col[1].write("\n")
+col[1].write(
+    """<h4 align=left><FONT color="orange">Dashboard RNU Excel</FONT></h4>""",
+    unsafe_allow_html=True,
+)
 col[1].write(
     """
     <p style="text-align: justify;"><B>
@@ -117,7 +134,7 @@ col[1].link_button("Plus info", url="https://projetbiostatistique.streamlit.app"
 st.write("\n")
 
 # ===============Développement d'application===========================
-for i in range(1):
+for i in range(3):
     col[0].write("\n")
 col[0].write(
     """<h2 align=right><FONT color="orange">Développement </FONT></h2>""",
@@ -127,9 +144,13 @@ col[1].write(
     """<h2 align=left><FONT color="orange">d'Application</FONT></h2>""",
     unsafe_allow_html=True,
 )
-col[1].write("\n")
+for i in range(4):
+    col[1].write("\n")
 # ===============Application python===========================
-col[0].subheader("Application Python")
+col[0].write(
+    """<h4 align=left><FONT color="orange">Application Python</FONT></h4>""",
+    unsafe_allow_html=True,
+)
 col[0].write(
     """
     <p style="text-align: justify;"><B>
