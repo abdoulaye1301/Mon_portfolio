@@ -114,7 +114,7 @@ col[0].write(
 )
 for i in range(3):
     col[1].write("\n")
-col[1].image("static/ID Global Busness/Accessoire ID Global.jpg", use_column_width=True)
+col[1].image("static/Accessoire ID Global.jpg", use_column_width=True)
 col[0].link_button(
     "Plus info",
     url="",
@@ -151,7 +151,10 @@ col[0].write(
     """,
     unsafe_allow_html=True,
 )
-col[1].link_button("Plus info", url="https://projetbiostatistique.streamlit.app")
+col[1].link_button(
+    "Plus info",
+    url="",
+)
 st.write("\n")
 
 # ===============Développement d'application===========================
@@ -186,5 +189,5 @@ col[0].write(
 col[1].video("Videos/arithmacie.mp4", start_time=3)
 col[0].link_button(
     "Plus info",
-    url="https://projetbiostatistique.streamlit.app",
+    url="",
 )

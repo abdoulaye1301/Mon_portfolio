@@ -25,7 +25,6 @@ skills = st.Page(
     icon="",
 )
 # contact = st.Page(page="views/Contacts.py", title="Contacts", icon="")
-
 # Navigation des pages
 pg = st.navigation(
     {
