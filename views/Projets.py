@@ -10,19 +10,16 @@ st.write(
     """<h2 align=center><FONT color="orange">Modélisation avec Python</FONT></h2>""",
     unsafe_allow_html=True,
 )
-st.write("\n")
 
 col = st.columns(2)
 # =============Projets Biostatistiques=======================
-for i in range(1):
-    col[0].write("\n")
-for i in range(6):
+
+for i in range(5):
     col[1].write("\n")
 col[0].write(
     """<h4 align=left><FONT color="orange">Biostatistique</FONT></h4>""",
     unsafe_allow_html=True,
 )
-col[0].write("\n")
 col[0].write(
     """
     <p style="text-align: justify;"><B>
