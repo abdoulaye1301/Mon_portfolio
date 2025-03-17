@@ -7,7 +7,7 @@ st.markdown(
     unsafe_allow_html=True,
 )
 st.write(
-    """<h2 align=center><FONT color="orange">Réalisation des projets avec Python</FONT></h2>""",
+    """<h2 align=center><FONT color="orange">Modélisation avec Python</FONT></h2>""",
     unsafe_allow_html=True,
 )
 st.write("\n")
