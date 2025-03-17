@@ -1,7 +1,6 @@
 # Importation des bibliothéques
 import streamlit as st
 from pathlib import Path
-from PIL import Image
 
 # Page du projet
 accueil = st.Page(
