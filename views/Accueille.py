@@ -12,11 +12,11 @@ icone_page = "static/Plan de travail 1.png"
 linked = "static/linkedin.png"
 gith = "static/github.png"
 twitt = "static/twitter.png"
-cv = "static/cv.png"
+icone_cv = "static/cv.png"
 titre_page = "Abdoulaye NDAO"
 mail = "ndao1301@gmail.com"
 tel = "(+221)77-694-89-72"
-description = """Ingénieur Data Scientist,  chargé de modéliser des volumes de données massives pour faciliter la prise de décision"""
+description = """Ingénieur Data Scientist | Data Analyst | Statisticien"""
 media = {
     "LinkedIn": "https://linkedin.com/in/abdoulaye-ndao-423042253",
     "Github": "https://github.com/abdoulaye1301",
@@ -80,4 +80,4 @@ colss = st.columns(4, vertical_alignment="center")
 colss[0].image(linked, width=70)
 colss[1].image(gith, width=70)
 colss[2].image(twitt, width=70)
-colss[len(media)].image(cv, width=80)
+colss[len(media)].image(icone_cv, width=80)
