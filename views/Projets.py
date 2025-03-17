@@ -3,7 +3,7 @@ import streamlit as st
 st.markdown(
     """<p style="text-align: justify;"><B>Dans cette page, vous pouvez consulter 
     les différentes projets sur lesquels j'ai travaillé pour mettre en 
-    pratiques les connaissances acquisent au cours de mon cursus scolaire</B></p>""",
+    pratiques les connaissances acquisent au cours de mon cursus scolaire.</B></p>""",
     unsafe_allow_html=True,
 )
 st.write(
