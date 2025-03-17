@@ -182,7 +182,7 @@ col[1].write(
     """<h2 align=left><FONT color="orange">d'Application</FONT></h2>""",
     unsafe_allow_html=True,
 )
-for i in range(3):
+for i in range(4):
     col[1].write("\n")
 # ===============Application python===========================
 col[0].write(
@@ -192,17 +192,23 @@ col[0].write(
 col[0].write(
     """
     <p style="text-align: justify;"><B>
-    Le projet de Biostatistique consiste à mettre en place un modèle de machine 
-    learning ou statistique qui permet de faire un pronostique sur 
-    la survenue instantanée de décès après le traitement.Pour la 
-    construction de ce modèle, nous avons utiliser les données des patients 
-    atteints d’accident cérébral vasculaire (AVC), traités et suivis.
+    Cette étude consiste à mettre en place une application Arithmanceur.
+    L’arithmancie ou l’arithmomancie est une technique de divination basée 
+    sur les nombres de 1 à 9.Le plus souvent, il s’agit de transformer le 
+    prénom et le nom des gens en une suite de chiffres pour
+    obtenir ce qu’on appelle le nombre d’expression, le nombre intime et 
+    le nombre de réalisation. Chacun de ces nombres est ensuite analysé.
+    Pour ce fair, nous allons faire un contrôle de saisie pour gérer les 
+    entrées de l’utilisateur. Nous forcerons aussi l’utilisateur à entrer 
+    une chaîne de caractère comportant uniquement
+    l’alphabet latin (a - z) ou (A - Z).
     </B></p>
     """,
     unsafe_allow_html=True,
 )
 col[1].image("static/arithmacie.jpg")
-col[0].link_button(
+col[1].write("\n")
+col[1].link_button(
     "Plus info",
     url="",
 )
